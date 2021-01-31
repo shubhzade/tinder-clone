@@ -1,0 +1,47 @@
+.card{
+position: relative;
+width: 600px;
+padding: 20px;
+max-width: 85vw;
+height: 58vh;
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+box-shadow:0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+.cardContaner{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  
+}
+.card >h3{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+
+.swipe{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+/* 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCFUkHj-ZCTYnTYrOB-oc2lAUF-YqHv4nE",
+  authDomain: "tinder-clone-54e3f.firebaseapp.com",
+  projectId: "tinder-clone-54e3f",
+  storageBucket: "tinder-clone-54e3f.appspot.com",
+  messagingSenderId: "325335099387",
+  appId: "1:325335099387:web:278dc514e047eecd76cd5e",
+  measurementId: "G-2J3GB2J57J"
+}; */
